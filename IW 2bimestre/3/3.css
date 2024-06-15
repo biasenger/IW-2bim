@@ -1,0 +1,56 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c5e1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    background-color: #e0f0ff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .title {
+    color: #0c85d6;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  input[type="number"] {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #04479e;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2b4469;
+  }
+  
+  .result {
+    color: #042653;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #042653;
+    border-radius: 4px;
+  }
+  

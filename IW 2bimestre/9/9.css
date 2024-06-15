@@ -1,0 +1,38 @@
+/* Estilos gerais (sem alterações do exemplo anterior) */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c6ebe8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    background-color: #57e4d1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .title {
+    color: #0a4952;
+  }
+  
+  .fruits-list {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .fruits-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .fruits-list li {
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+  

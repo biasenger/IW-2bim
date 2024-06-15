@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Horas/Aulas</title>
+    <link rel="stylesheet" href="hora.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Horas/Aulas</h1>
+        <form id="hoursForm">
+            <div>
+                <label for="professorName">Nome do Professor:</label>
+                <input type="text" id="professorName" name="professorName" required>
+            </div>
+            <div>
+                <label for="hourlyRate">Valor da Hora/Aula (R$):</label>
+                <input id="hourlyRate" name="hourlyRate" min="0" step="0.01" required>
+            </div>
+            <div>
+                <label for="lessonsPerWeek">Quantidade de Aulas por Semana:</label>
+                <input id="lessonsPerWeek" name="lessonsPerWeek" min="0" step="1" required>
+            </div>
+            <div>
+                <label for="hoursPerLesson">Duração de Cada Aula (Horas):</label>
+                <input  id="hoursPerLesson" name="hoursPerLesson" min="0" step="0.5" required>
+            </div>
+            <button type="submit">Calcular</button>
+        </form>
+        <div id="result">
+            <h2 id="resultHeader">Resultado:</h2>
+            <div id="totalContainer">
+                <p id="totalHours">Total de Horas na Semana: 0 horas</p>
+                <p id="totalValue">Total: R$ 0,00</p>
+            </div>
+        </div>
+    </div>
+    <script src="hora.js"></script>
+</body>
+</html>
